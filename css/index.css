@@ -1,0 +1,100 @@
+body{
+    background: #114357;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
+}
+
+
+.conteiner{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1,5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: rgb(0, 204, 255);
+}
+
+.cuadro-del-contenido{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.cuadro-del-contenido > * {
+    padding: 1em;
+}
+
+.parteizquierda{
+    background: #707e86;
+}
+
+.parteizquierda form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.parteizquierda form .bloque{
+    grid-column: 1 / 3;
+}
+
+.parteizquierda form p {
+    margin: 0;
+    padding: 1em;
+
+}
+
+.parteizquierda form button,
+.parteizquierda form input,
+.parteizquierda form textarea{
+    width: 100%;
+    padding: 0,5em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid rgb(231, 240, 245);
+}
+
+.parteizquierda form button{
+    background-color: rgb(1, 50, 114);
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.parteizquierda form button:hover,
+.parteizquierda form button:focus {
+    background: rgb(72, 167, 255);
+    color: rgb(0, 0, 0);
+    transition: background-color 2s ease-out;
+}
+
+.form-control{
+    background-color: #F29492;
+}
+
+.titulo{
+    position: relative;
+    left: 1%;
+    color: #0098df;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.logotipo1{
+    position: relative;
+    height: 100px;
+    left: 47%;
+    top: 10px;
+    background-position: center;
+}
+
+
+
